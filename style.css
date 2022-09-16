@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Comfortaa', cursive;
+}
+
+main {
+  margin: auto;
+  width: 50vw;
+  height: 70vh;
+  background-color: darkgray;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  padding: 60px 0;
+  text-align: center;
+}
