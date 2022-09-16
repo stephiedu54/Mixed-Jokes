@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mixed Jokes</title>
-</head>
-<body>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Jokes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Générateur de blagues 'Toc-toc'</h1>
+    <div>
+      <p>- Toc-toc-toc !</p>
+      <p>- Qui est là ?</p>
+      <p>- <span class="name1"></span></p>
+      <p>- <span class="name2"></span> qui ?</p>
+      <p>- <span id="joke"></span></p>
+    </div>
+
+    <button id="generatorBtn" type="button">Générer</button>
+
+    <!-- Import jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Mon script -->
+    <script src="script.js"></script>
+  </body>
 </html>
